@@ -18,7 +18,7 @@ const Quest = (props, {match}) => {
 
   const handleAnswer = (data) => {
     if (data !== null) {
-      if (data === props.password.toLowerCase()) {
+      if (data.toLowerCase() === props.password.toLowerCase()) {
         console.info("Rigth answer")
         props.answerQuest(props.id)
       } else {
