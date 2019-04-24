@@ -33,7 +33,7 @@ const Quest = (props, {match}) => {
         <div className="level is-mobile">
           <div className="level-item">
             <figure className="image">
-              <img src={process.env.PUBLIC_URL + props.qr + '.gif'}/>
+              <img src={process.env.PUBLIC_URL + props.qr + '.jpeg'}/>
             </figure>
           </div>
         </div>
